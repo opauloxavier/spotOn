@@ -1,0 +1,183 @@
+<div class="container">
+	<div class="row">
+	   <div class="page-header">
+            	<h3>Registrar Conta</h3>
+            </div>
+    </div>
+	<div class="row">
+		<section>
+        <div class="wizard">
+            <div class="wizard-inner">
+                <div class="connecting-line"></div>
+                <ul class="nav nav-tabs" role="tablist">
+
+                    <li role="presentation" class="active">
+                        <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Passo 1 - Insira seus Dados">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-pencil"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li role="presentation" class="disabled">
+                        <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Passo 2 - Seus Gêneros de Filme">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-folder-open"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="disabled">
+                        <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Passo 3 - Sua imagem de Profile">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-picture"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li role="presentation" class="disabled">
+                        <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Passo 4 - Finalizar">
+                            <span class="round-tab">
+                                <i class="glyphicon glyphicon-ok"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <form role="form" class="form-horizontal">
+                <div class="tab-content">
+                    <div class="tab-pane active" role="tabpanel" id="step1">
+                    	<div clas="form-group">
+                    		<h4>Insira seus Dados</h4>
+                    	</div>
+                    	<div class="form-group">
+						    <div class="col-md-6">
+						   		<label class="control-label">Nome</label>
+						    	<input type="text" class="form-control" id="nome" name="nomeCadastro" placeholder="Digite seu Nome" required="true">
+						    </div>
+						</div>
+						<div class="form-group">
+						    <div class="col-md-6">
+						   		<label class="control-label">E-mail</label>
+						    	<input type="text" class="form-control" id="nome" name="emailCadastro" placeholder="Digite seu Email" required="true">
+						    </div>
+						</div>
+						<div class="form-group">
+						    <div class="col-md-6">
+						   		<label class="control-label">Senha</label>
+						    	<input type="text" class="form-control" id="nome" name="senhaCadastro" placeholder="Digite sua Senha" required="true" style="margin-bottom:10px;">
+						    	<input type="text" class="form-control" id="nome" name="senhaCadastro2" placeholder="Repita sua Senha" required="true">
+						    </div>
+						</div>
+						<div class="form-group" style="margin-top:20px; ">
+							<label>
+						      <input name="checkbox-newsletter" value="newsletter" type="checkbox">
+						      Desejo Receber Notícias e Novidades do Recommendations e afiliados.
+						    </label>
+						</div>
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-primary next-step">Salvar e Continuar</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="step2">
+                    	<div class="form-group">
+                    		<h4>Seus Gêneros de Filme Favoritos</h4>
+                    	</div>
+                    	<div class="form-group">
+                    	  <div class="col-md-4">
+						  <div class="checkbox">
+						    <label for="checkboxes-0">
+						      <input name="checkboxes" id="checkboxes-0" value="0" type="checkbox">
+						      Ação
+						    </label>
+							</div>
+						  <div class="checkbox">
+						    <label for="checkboxes-1">
+						      <input name="checkboxes" id="checkboxes-1" value="1" type="checkbox">
+						      Terror
+						    </label>
+							</div>
+						  <div class="checkbox">
+						    <label for="checkboxes-2">
+						      <input name="checkboxes" id="checkboxes-2" value="2" type="checkbox">
+						      Drama
+						    </label>
+							</div>
+						  <div class="checkbox">
+						    <label for="checkboxes-3">
+						      <input name="checkboxes" id="checkboxes-3" value="3" type="checkbox">
+						      Suspense
+						    </label>
+							</div>
+						  <div class="checkbox">
+						    <label for="checkboxes-4">
+						      <input name="checkboxes" id="checkboxes-4" value="4" type="checkbox">
+						      Comédia
+						    </label>
+							</div>
+						  <div class="checkbox">
+						    <label for="checkboxes-5">
+						      <input name="checkboxes" id="checkboxes-5" value="5" type="checkbox">
+						      Desenho
+						    </label>
+							</div>
+						  <div class="checkbox">
+						    <label for="checkboxes-6">
+						      <input name="checkboxes" id="checkboxes-6" value="6" type="checkbox">
+						      Animação
+						    </label>
+							</div>
+						  <div class="checkbox">
+						    <label for="checkboxes-7">
+						      <input name="checkboxes" id="checkboxes-7" value="7" type="checkbox">
+						      Infantil
+						    </label>
+							</div>
+						  </div>
+						  </div>
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step">Anterior</button></li>
+                            <li><button type="button" class="btn btn-primary next-step">Salvar e Continuar</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="step3">
+                    <div class="form-group">
+                    		<h4>Escolha sua Imagem de Profile ou Utilize seu Gravatar</h4>
+                    	</div>
+
+                    	 <div class="form-group">
+						    <div class="col-md-6">
+						   		<label class="control-label">Escolha sua Imagem de Profile</label>
+						    	<input type="file" class="form-control" name="gravatar">
+						    </div>
+						</div>
+
+					<div class="form-group">
+					<h4>Ou</h4>
+					</div>
+
+                       <div class="form-group">
+						    <div class="col-md-6">
+						   		<label class="control-label">Gravatar</label>
+						    	<input type="text" class="form-control" name="gravatar" placeholder="Digite seu Gravatar">
+						    </div>
+						</div>
+
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step">Anterior</button></li>
+                            <li><button type="button" class="btn btn-primary btn-info-full next-step">Salvar e Continuar</button></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="complete">
+                    	<div class="form-group">
+	                        <h2>Parabéns!</h2>
+	                        <br>
+	                        <p>Você acaba de se inscrever no site de recomendações mais irado das redondezas. Você receberá um email de confirmação em sua caixa em breve.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </form>
+        </div>
+    </section>
+   </div>
+</div>

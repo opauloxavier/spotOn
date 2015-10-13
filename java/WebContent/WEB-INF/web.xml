@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+ 
+<web-app>
+ 
+<display-name>Testando um Servlet!</display-name>
+<description></description>
+ 
+<servlet>
+	<servlet-name>Database</servlet-name> <!-- nome do servlet dentro do web.xml -->
+	<servlet-class>connect.connectDB</servlet-class> <!-- nome da classe do servlet -->
+</servlet>
+
+<servlet>
+	<servlet-name>teste</servlet-name> <!-- nome do servlet dentro do web.xml -->
+	<servlet-class>servlet.HelloWorld</servlet-class> <!-- nome da classe do servlet -->
+</servlet>
+ 
+<servlet-mapping>
+	<servlet-name>Database</servlet-name>
+	<url-pattern>/db/</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+	<servlet-name>teste</servlet-name>
+	<url-pattern>/teste/</url-pattern>
+</servlet-mapping>
+ 
+</web-app>
